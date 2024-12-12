@@ -1,4 +1,4 @@
-A web application to monitor and track air pollution levels in various cities. Built using HTML, CSS, Node.js, and SQL, this project aims to provide pollution data and insights for better awareness and decision-making.
+A basic web application developed as part of a college course project to monitor and track air pollution levels in various cities. Built using HTML, CSS, Node.js, and SQL, this project demonstrates the integration of frontend and backend technologies for real-world applications .
 
 # Features
 
@@ -28,18 +28,24 @@ SQL database server (e.g., MySQL, PostgreSQL)
 
 # Steps
 
-Clone the repository:
+### Step 1: Clone the Repository
 
-git clone https://github.com/RONIN447/city_pollution_tracker.git
+```bash
+git clone https://github.com/your-username/send-email-django.git
+cd send-email-django
+```
 
 
-# Install dependencies:
+### Step 2 : Install the dependencies
+```bash
 
 npm install
+```
 
-# Start the server:
-
+### Step 3 :  Start the server:
+```bash
 npm start
+```
 
 # Access the application:
 Open a browser and navigate to http://localhost:3000.
