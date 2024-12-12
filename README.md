@@ -1,5 +1,9 @@
 A basic web application developed as part of a college course project to monitor and track air pollution levels in various cities. Built using HTML, CSS, Node.js, and SQL, this project demonstrates the integration of frontend and backend technologies for real-world applications .
 
+
+![Screenshot (89)](https://github.com/user-attachments/assets/544c3ea1-d12d-4f64-834f-0e08afb29def)
+
+
 # Features
 
 1. Submission : Users can submit their data .
@@ -49,6 +53,10 @@ npm start
 
 # Access the application:
 Open a browser and navigate to http://localhost:3000.
+
+
+
+![Screenshot (88)](https://github.com/user-attachments/assets/6ca17732-f473-4784-824a-35dcae0725e6)
 
 # Contributions
 
