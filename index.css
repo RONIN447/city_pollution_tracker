@@ -1,0 +1,150 @@
+
+    /* universal styling  */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* styling for the body  */
+    body {
+      font-family: 'Arial', sans-serif;
+      background: #121212;
+      color: #e0e0e0;
+      margin: 20px;
+    }
+
+    /* Container */
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: #1e1e1e;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Header */
+    h1 {
+      text-align: center;
+      font-size: 2rem;
+      color: #90caf9;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      color: #b0bec5;
+      margin-bottom: 10px;
+    }
+
+    /*  Dropdown */
+    select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #555;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      font-size: 1rem;
+      background: #2c2c2c;
+      color: #e0e0e0;
+    }
+
+    /* Pollution Data Cards */
+    .card {
+      border: 1px solid #333;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      background: #2c2c2c;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.02);
+    }
+
+    /*  Styling of the form */
+    form {
+      margin-top: 20px;
+    }
+
+    label {
+      font-size: 1rem;
+      color: #b0bec5;
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"], textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #555;
+      border-radius: 5px;
+      font-size: 1rem;
+      background: #2c2c2c;
+      color: #e0e0e0;
+    }
+
+    textarea {
+      resize: vertical;
+    }
+
+    button {
+    background: #90caf9;
+    color: #121212;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s, background 0.3s, box-shadow 0.3s;
+    }
+
+    button:hover {
+    background: #64b5f6;
+    transform: scale(1.1); 
+    box-shadow: 0 4px 8px rgba(100, 181, 246, 0.6); 
+    }
+
+    /* Styling for Pollution Data and Submit Observation Sections */
+    #pollutionData, #submissionForm {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background: #2c2c2c;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Add a divider between sections */
+    #pollutionData {
+    border-bottom: 3px solid #90caf9;
+    }
+
+    #submissionForm {
+    border-top: 3px solid #90caf9;
+    }
+
+
+
+    /* responsive design for both mobile and pc  */
+    @media (max-width: 768px) {
+      .container {
+        padding: 15px;
+      }
+
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      h3 {
+        font-size: 1rem;
+      }
+
+      button {
+        width: 100%;
+        padding: 12px;
+      }
+    }
