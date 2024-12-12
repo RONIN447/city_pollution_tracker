@@ -1,24 +1,24 @@
 A web application to monitor and track air pollution levels in various cities. Built using HTML, CSS, Node.js, and SQL, this project aims to provide pollution data and insights for better awareness and decision-making.
 
-Features
+->Features
 
-->Submission : Users can submit their data .
+1.Submission : Users can submit their data .
 
-->City Search: Search and view pollution statistics for specific cities.
+2.City Search: Search and view pollution statistics for specific cities.
 
-->User-Friendly Interface: Easy-to-navigate and responsive design.
+3.User-Friendly Interface: Easy-to-navigate and responsive design.
 
-->Database Integration: Store historical pollution data for analysis.
+4.Database Integration: Store historical pollution data for analysis.
 
-Technology Stack
+->Technology Stack
 
-Frontend: HTML, CSS
+1.Frontend: HTML, CSS
 
-Backend: Node.js
+2.Backend: Node.js
 
-Database: SQL (e.g., MySQL)
+3.Database: SQL (e.g., MySQL)
 
-Installation
+->Installation
 
 Prerequisites
 
@@ -26,11 +26,12 @@ Node.js and npm installed
 
 SQL database server (e.g., MySQL, PostgreSQL)
 
-Steps
+->Steps
 
 Clone the repository:
 
 git clone https://github.com/RONIN447/city_pollution_tracker.git
+
 cd city_pollution_tracker
 
 Install dependencies:
