@@ -35,7 +35,7 @@ SQL database server (e.g., MySQL, PostgreSQL)
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https: https://github.com/RONIN447/city_pollution_tracker.git
+git clone https://github.com/RONIN447/city_pollution_tracker.git
 cd city_pollution_tracker
 ```
 
